@@ -1,5 +1,6 @@
 ---
 title: 最强自制第五人格BP展示软件（没有之一）
+date: 2024-08-19 00:09
 tags: 软件
 ---
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112878350763126&bvid=BV15uvSeCEKf&cid=500001633071575&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
