@@ -11,7 +11,7 @@ enable_headroom: false # 滚动时是否自动折叠顶栏
 # 顶栏
 toolbar_icon: '/assets/img/auther.webp' # 顶栏图标图片地址，留空则不显示
 toolbar_icon_link: '' # 顶栏图标链接，点击时跳转
-toolbar_title: 'Zero_PLFJY' # 顶栏标题，留空则跟随博客标题
+toolbar_title: 'ゼロ風PLFJY' # 顶栏标题，留空则跟随博客标题
 toolbar_menu: # 顶栏菜单，支持二级菜单
   首页: /
   归档: /archives
@@ -23,13 +23,13 @@ toolbar_menu: # 顶栏菜单，支持二级菜单
 banner_title: '欢迎来到零风PLFJY的博客' # Banner 标题，留空则跟随博客标题
 enable_banner_title_typing_effect: true # 是否启用 Banner 打字效果
 theme.banner_typing_effect_interval: 1000 # Banner 打字间隔时长，单位 ms/字
-banner_subtitle: '一个有趣的人' # Banner 子标题，留空则不显示
+banner_subtitle: '一个喜欢技术的人' # Banner 子标题，留空则不显示
 banner_background_url: '/assets/img/banner.jpg' # Banner 背景图，留空则不显示
 banner_background_hide_shapes: false # 是否隐藏 Banner 背景圆形
 banner_background_color_type: 'shape-primary' # Banner 渐变样式，Banner 背景图会覆盖该选项，可选值: shape-primary, shape-default, shape-dark, bg-gradient-success, bg-gradient-info, bg-gradient-warning, bg-gradient-danger
 
 # 侧栏
-sidebar_banner_title: '零风PLFJY' # 侧栏标题，留空则跟随博客标题
+sidebar_banner_title: 'ゼロ風PLFJY' # 侧栏标题，留空则跟随博客标题
 sidebar_banner_subtitle: '--hitokoto--' # 侧栏子标题，留空则不显示，设为 --hitokoto-- 调用一言
 sidebar_announcement: '' # 侧栏公告，留空则不显示
 leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
@@ -64,7 +64,7 @@ page_background_url: '/assets/img/banner.webp' # 页面背景地址，留空则�
 page_background_dark_url: '' # 夜间模式页面背景地址，留空则跟随日间模式
 page_background_opacity: 0.75 # 页面背景不透明度，0 ~ 1的小数
 transparent_banner: true # Banner 透明化，如果设置了背景以后推荐开启该选项
-show_toolbar_mask: false # 顶栏遮罩，如背景图片影响了顶栏文字显示对比度建议开启
+show_toolbar_mask: true # 顶栏遮罩，如背景图片影响了顶栏文字显示对比度建议开启
 
 # 浮动操作按钮
 fab_show_darkmode_button: true # 是否显示日夜间模式切换浮动操作按钮
