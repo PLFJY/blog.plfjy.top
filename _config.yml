@@ -1,0 +1,102 @@
+# Hexo 配置
+## 文档: https://hexo.io/docs/configuration.html
+## 源码: https://github.com/hexojs/hexo/
+
+# 站点信息
+title: 零风PLFJY的博客  # 网站标题，显示在浏览器标签和网站顶部
+subtitle: ''  # 网站副标题，显示在标题下方
+description: ''  # 网站描述，用于SEO和社交媒体分享
+keywords: PLFJY # 网站关键词，用于SEO优化
+author: 零风PLFJY  # 网站作者名称
+language: zh-cn  # 网站语言，影响主题的默认语言
+timezone: 'Asia/Shanghai'  # 网站时区，影响文章发布时间显示
+
+# URL设置
+## 在此设置你的站点URL。例如，如果你使用GitHub Page，设置url为'https://username.github.io/project'
+url: http://plfjy.github.io  # 网站根URL，必须与你的部署地址一致
+permalink: :year/:month/:day/:title/  # 文章永久链接格式
+permalink_defaults:  # 永久链接默认值
+pretty_urls:  # 美化URL设置
+  trailing_index: true # 设置为false以移除永久链接中的'index.html'
+  trailing_html: true # 设置为false以移除永久链接中的'.html'
+
+# 目录设置
+source_dir: source  # 源文件目录，存放文章和页面
+public_dir: public  # 生成的静态文件目录
+tag_dir: tags  # 标签页目录
+archive_dir: archives  # 归档页目录
+category_dir: categories  # 分类页目录
+code_dir: downloads/code  # 代码下载目录
+i18n_dir: :lang  # 国际化目录
+skip_render:  # 跳过渲染的文件或目录
+
+# 写作设置
+new_post_name: :title.md # 新文章的文件名格式，支持变量
+default_layout: post  # 默认布局模板
+titlecase: false # 将标题转换为首字母大写
+external_link:  # 外部链接设置
+  enable: true # 在新标签页中打开外部链接
+  field: site # 应用于整个站点
+  exclude: ''  # 排除的链接
+filename_case: 0  # 文件名大小写转换，0=不转换，1=小写，2=大写
+render_drafts: false  # 是否渲染草稿
+post_asset_folder: true  # 是否为每篇文章创建资源文件夹
+# marked:
+#   prependRoot: true
+#   postAsset: true
+relative_link: false  # 是否使用相对链接
+future: true  # 是否发布未来日期的文章
+syntax_highlighter: highlight.js  # 代码高亮引擎
+highlight:  # 代码高亮设置
+  line_number: true  # 显示行号
+  auto_detect: false  # 自动检测语言
+  tab_replace: ''  # 替换制表符
+  wrap: true  # 包裹代码块
+  hljs: false  # 是否使用hljs类
+prismjs:  # Prism.js设置
+  preprocess: true  # 预处理
+  line_number: true  # 显示行号
+  tab_replace: ''  # 替换制表符
+
+# 首页设置
+index_generator:
+  path: ''  # 首页路径，默认为根目录
+  per_page: 10  # 每页显示文章数，0=禁用分页
+  order_by: -date  # 文章排序方式，-date=按日期降序
+
+# 分类和标签
+default_category: uncategorized  # 默认分类
+category_map:  # 分类别名映射
+tag_map:  # 标签别名映射
+
+# 元数据元素
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true  # 是否生成meta generator标签
+
+# 日期/时间格式
+## Hexo使用Moment.js来解析和显示日期
+date_format: YYYY-MM-DD  # 日期显示格式
+time_format: HH:mm:ss  # 时间显示格式
+updated_option: 'mtime'  # 更新时间选项：'mtime'=文件修改时间，'date'=文章日期，'empty'=不显示
+
+# 分页设置
+per_page: 10  # 全局每页显示数量
+pagination_dir: page  # 分页目录名称
+
+# 包含/排除文件
+include:  # 包含的文件
+exclude:  # 排除的文件
+ignore:  # 忽略的文件
+
+# 扩展
+theme: argon  # 当前使用的主题名称
+
+# 部署设置
+deploy:
+  type: ''
+
+# 搜索设置
+search:
+  path: search.xml  # 搜索索引文件路径
+  field: post  # 搜索范围
+  content: true  # 是否搜索文章内容
